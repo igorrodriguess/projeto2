@@ -1,0 +1,140 @@
+html,body, .capa{
+	height: 100%;
+}
+body{
+	background: url(../../imagens/capa.png),
+				url(../../imagens/ruido.png),
+				linear-gradient(50deg,#E6ED1E, #0FC3D3);
+	background-attachment: fixed;
+	font-family: helvetica,arial,sans-serif;
+}
+
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border:none;
+}
+.img-logo{
+	height: 60px;
+	width: 132px;
+	display: block;
+	background: url('../../imagens/spotify.svg') no-repeat;
+	color:transparent;
+	background-size: contain;
+}
+.navbar-brad{
+	padding: 5px 15px;
+}
+.divisor{
+	width: 1px;
+	height: 16px;
+	background-color: #fff;
+	margin: 16px 10px;
+}
+.navbar-inverse .navbar-nav>li>a,footer.nav a{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: #54F41C;
+	background-color: none;
+}
+.capa{
+	display: table;
+	width: 100%
+}
+.texto-capa{
+	text-align: center; /*Alinhamento de texto*/
+	color:#fff;
+	display: table-cell;
+	vertical-align: middle;
+}
+/*=================Botoes =============================*/
+.btn-custom{
+	color: #fff;
+	border-radius: 500px;
+	padding: 10px 35px;
+	margin: 0px 15px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s,
+}
+.btn-roxo{
+	background: #D02E8D
+}
+.btn-roxo: hover{
+	background-color: #F31126;
+	color: #fff;
+}
+.btn-branco{
+	border: 2px solid #fff;
+}
+.btn-branco: hover{
+	background-color: #fff;
+	color: #160B0B;
+}
+
+/*=================section serviço=====================*/
+#servicos{
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.albuns{
+	padding: 10px 0px 10px 0px;
+}
+/*==================================section recursos=====================================*/
+#recursos{
+	color: #2315D6;
+}
+
+.rotacionar{
+	padding: left: 80px;
+	transform: rotate(30deg);/*I E 9*/
+	-webkit-transform: rotate(30deg);/*chrome safari opera*/
+}
+/*===========================rodapé=============================*/
+footer{
+	background: #000;/*preto*/
+	padding: 50px 0px 20px 0px;
+	position: relative;
+
+}
+.item-rede-social{
+	float: right;/*flutuar a direita*/
+	
+
+}
+
+/*===============Tipografia==============*/
+
+h1{
+	font-size: 100px;
+	font-weight: 900px;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;/*espaçamento das letras*/
+}
+#rodape h4{
+	color:#E0542F;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#servicos h2, #servicos h3{
+	color: #4A43E1;
+}
+#recursos h3 {
+	color:#EB3737;
+}
+
+
+	
+
